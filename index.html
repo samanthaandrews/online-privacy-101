@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Online Privacy 101</title>
+  <meta charset="utf-8" />
+  <meta property="og:url" content="https://www.onlineprivacy101.info/index.html" />
+  <meta property="og:title" content="Online Privacy 101" />
+  <meta property="og:type" content="website" />
+  <meta name="og:description" content="A practical, step-by-step guide to protect yourself online. Take action today to protect your privacy!" />
+  <meta name="og:keywords" content="online privacy, security, how to protect your data online" />
+  <meta property="og:image" content="https://www.onlineprivacy101.info/assets/sharing.jpg" />
+  <meta name="og:author" content="Samantha Andrews" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Favicon meta tags -->
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!--Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet" />
+  <!--My stylesheet-->
+  <link rel="stylesheet" href="styles.css" />
+  <!--Favicon links -->
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <!--Twitter sharing url-->
+  <link rel="canonical" href="/web/tweet-button">
+  <!--My javascript-->
+  <script src="scripts.js" type="text/javascript"/>
+  </script>
+</head>
+
+<body>
+  <article>
+    <header>
+      <img class="lock-key-icon" src="assets/lock.svg" alt="lock and key icon" />
+      <h1 class="page-title">Online Privacy 101</h1>
+    </header>
+    <h2 class="subheading">
+      <mark class="highlight-background"><em>A practical, open-source guide to protect yourself online</em></mark>
+    </h2>
+    <p>
+      This is an open-source project. <a href="#">Click here to contribute</a>.
+    </p>
+    <div class="share-button-container">
+      <button id="fb-share-button" data-href="https://www.onlineprivacy101.info/index.html" data-layout="button">
+        Share
+      </button>
+      <button id="twitter-share-button" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.onlineprivacy101.info&text=Start%20protecting%20your%20data%20with%20Online%20Privacy%20101%2C%20a%20practical%20open-source%20guide%20for%20staying%20safe%20online" data-size="large">
+        Tweet
+      </button>
+      <button id="copy-link-button" onclick="copyURL()">Share link</button>
+      <button>Download PDF checklist</button>
+    </div>
+
+    <section id="section-1" onclick="toggleSection(this.id)">
+      <div class="toggle-header">
+        <h2>Step 1: Use a password manager</h2>
+        <div id="down-arrow" class="toggle-arrow"><span class="icon" role="button"
+            aria-label="down-arrow-toggle">⇣</span></div>
+        <div id="up-arrow" class="toggle-arrow"><span class="icon" role="button" aria-label="up-arrow-toggle">⇡</span>
+        </div>
+      </div>
+      <div class="toggle-section">
+        <p>
+          This step is the most essential because it makes all the other steps easier. Sign up for a password manager.
+          According to internet expert <a href="https://pjrvs.com/">Paul Jarvis</a>, here's what you should look for in
+          a password manager:
+        </p>
+        <ul>
+          <li>
+            End-to-end encryption. This means the software that stores your passwords encrypts your data. Even if the
+            password manager is hacked, your data is safe.
+          </li>
+          <li>Easy 2-factor authentication through the password manager.</li>
+          <li>Alerts if any of your accounts have been hacked.</li>
+          <li>
+            Bonuses: Virtual Private Network (VPN), browser plugin that will auto-fill passwords, import/export
+            passwords from your browser, auto-generate strong passwords.
+          </li>
+        </ul>
+        <p>
+          There are a lot of options: <a href="https://1password.com/">1Password</a>,
+          <a href="https://www.lastpass.com/">LastPass</a>, <a href="https://www.dashlane.com/">Dashlane</a>,
+          <a href="https://www.remembear.com/">RememBear</a>, and many, many more. <a href="https://myki.com/">Myki</a>,
+          another option, saves your passwords offline (no cloud). I personally use Dashlane and love it. (I'm not an
+          affiliate or partner!)
+        </p>
+        <p>
+          The good news is most of the options I listed have a free tier with limited features. If you can afford the
+          ~$30-50/year for 1Password, Dashlane, etc., I highly recommend forking over the cash.
+        </p>
+        <div class="callout">
+          <div style="font-size:1.5em"><span class="icon" role="image" aria-label="star-icon">✰</span></div>
+          <div>
+            Once you've chosen a solution for your password storage, install it in all the places where you'll need to
+            access these passwords. I use Dashlane's <strong>desktop app</strong>, <strong>iOS app</strong>, and
+            <strong>browser plugin for Firefox</strong>.
+          </div>
+        </div>
+        <h3>
+          Transfer all your passwords to your shiny new password manager!
+        </h3>
+        <p>
+          Where have you been storing your passwords? The browser? Apple keychain? Old-fashioned paper notebook?
+          Wherever it may be, it's time to transfer all of that information to your password manager. There are 3 many
+          ways to transfer your passwords:
+        </p>
+        <ul>
+          <li>
+            <strong>Import/export.</strong> LastPass and Dashlane let you import passwords from a number of browsers.
+            This is the easiest way by far to get started. If you’re using a Mac, you might also have your login info
+            stored in Apple’s Keychain application; export your data using the guide
+            <a
+              href="https://support.apple.com/guide/keychain-access/import-and-export-keychain-items-kyca35961/mac">here</a>.
+          </li>
+          <li>
+            <strong>As you browse.</strong> Most password managers with a browser plugin will prompt you to add login
+            information as you go about your business normally.
+          </li>
+          <li><strong>Manually.</strong> Tedious, but effective.</li>
+        </ul>
+        <p>
+          Here are guides for where to find your passwords in
+          <a href="https://support.google.com/chrome/answer/95606?co=GENIE.Platform%3DDesktop&hl=en-GB">Chrome</a>,
+          <a href="https://support.apple.com/guide/safari/passwords-sfri40599/mac">Safari</a>,
+          <a
+            href="https://support.mozilla.org/en-US/kb/password-manager-remember-delete-edit-logins?redirectlocale=en-US&redirectslug=password-manager-remember-delete-change-and-import">Firefox</a>,
+          and <a href="https://www.thewindowsclub.com/manage-passwords-internet-explorer-10">Internet Explorer</a>.
+        </p>
+        <div class="callout">
+          <div style="font-size:1.5em"><span class="icon" role="image" aria-label="star-icon">✰</span></div>
+          <p>
+            Once you've transferred your data to your password manager, it's time to remove that data from wherever it
+            was previously stored.
+            <strong>This means you need to delete your passwords from your browser and turn off the browser preference
+              to
+              store this information. </strong>It's up to your password manager to take care of this from now on!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-2" onclick="toggleSection(this.id)">
+      <div class="toggle-header">
+        <h2>Step 2: Change your most important passwords</h2>
+        <div id="down-arrow" class="toggle-arrow"><span class="icon" role="button"
+            aria-label="down-arrow-toggle">⇣</span></div>
+        <div id="up-arrow" class="toggle-arrow"><span class="icon" role="button" aria-label="up-arrow-toggle">⇡</span>
+        </div>
+      </div>
+      <div class="toggle-section">
+        <p>
+          Once you've set up your password manager, it's time to start changing your passwords. This can be intimidating
+          and time-consuming, but don't let it keep you from taking action!
+          <strong>I recommend changing your top 5 most used accounts immediately, and then gradually changing the rest
+            whenever you log onto those sites.</strong>
+          Here are the accounts I recommend changing right now:
+        </p>
+        <ul>
+          <li>Email accounts (Google, Outlook, iCloud, Yahoo, Hotmail, etc.)</li>
+          <li>Document storage (Dropbox, etc.)</li>
+          <li>Bank & credit card accounts</li>
+          <li>Money transfer apps (PayPal, Venmo, CashApp)</li>
+          <li>Amazon</li>
+          <li>Social media accounts (Facebook, Instagram, Twitter, Snapchat, TikTok, etc.)</li>
+        </ul>
+        <div class="callout">
+            <div style="font-size:1.5em"><span class="icon" role="image" aria-label="star-icon">✰</span></div>
+            <div>
+              Before you start changing your passwords, make sure you are doing so over a secure network connection. How do
+              you know if your network is secure? Usually your home internet connection is secure if it requires a WPA2
+              password, but a public internet connection is not. Jump down to the section on using a
+              <a href="#section-5">Virtual Private Network</a> to learn more.
+            </div>
+          </div>
+        <p>
+          How can you make sure your newly created passwords are unique and secure? Oftentimes, your password manager
+          comes with this feature built-in. With Dashlane, I'm prompted to "Generate a strong password" whenever I
+          create a new password or change an existing one. In the past I've used this
+          <a href="https://strongpasswordgenerator.com/">free strong password generator</a>.
+        </p>
+        <div class="callout">
+          <div style="font-size:1.5em"><span class="icon" role="image" aria-label="star-icon">✰</span></div>
+          <p>
+            However you generate your passwords, make sure they're different for each and every account.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-3" onclick="toggleSection(this.id)">
+      <div class="toggle-header">
+        <h2>Step 3: Set up two-factor authentication everywhere you can</h2>
+        <div id="down-arrow" class="toggle-arrow"><span class="icon" role="button"
+            aria-label="down-arrow-toggle">⇣</span></div>
+        <div id="up-arrow" class="toggle-arrow"><span class="icon" role="button" aria-label="up-arrow-toggle">⇡</span>
+        </div>
+      </div>
+      <div class="toggle-section">
+        <p>
+          Two-factor authentication is a process that gives web services secondary access to the account owner (you) in
+          order to verify a login attempt.
+        </p>
+        <p>
+          While you're in the process of changing your passwords, take a couple extra minutes to set up two-factor
+          authentication for your most critical accounts. Here's a
+          <a href="https://twofactorauth.org">helpful site to search</a> if you're wondering whether or not two-factor
+          authentication is available for your account and how to set it up.
+        </p>
+        <h3>Download a mobile authenticator app</h3>
+        <p>
+          While most apps support two-factor authentication via text message, the more secure option is to use an
+          authenticator app. In addition, authenticator apps offer flexibility when you are traveling to a place without
+          cellular service. Popular options include Authy, Google Authenticator, Microsoft Authenticator, or HDE OTP
+          (iOS only).
+        </p>
+        <h3>Save secret keys in your password manager</h3>
+        <p>
+          While enabling two-factor authentication, you will likely be prompted with several "secret keys" to copy and
+          save. These codes can be used to access your account as a last-resort if you are unable to access your mobile
+          device. I save my secret keys in Dashlane in the "Notes" section of the account they're associated with.
+        </p>
+      </div>
+    </section>
+
+    <section id="section-4" onclick="toggleSection(this.id)">
+      <div class="toggle-header">
+        <h2>Step 4: Strip down privacy settings</h2>
+        <div id="down-arrow" class="toggle-arrow"><span class="icon" role="button"
+            aria-label="down-arrow-toggle">⇣</span></div>
+        <div id="up-arrow" class="toggle-arrow"><span class="icon" role="button" aria-label="up-arrow-toggle">⇡</span>
+        </div>
+      </div>
+      <div class="toggle-section">
+        <p>
+          Below are five accounts that I recommend digging into to change your privacy settings. With most of these
+          services you can choose to opt out of certain types of data collection. Follow the links and read the fine
+          print.
+        </p>
+        <h3>Google</h3>
+        <ul>
+          <li>
+            Manage your data in your
+            <a href="https://myaccount.google.com/data-and-personalization">account dashboard</a>
+          </li>
+          <li>
+            Protect yourself against Google legally tracking you by
+            <a href="https://myaccount.google.com/activitycontrols">opting out</a> of the data they are able to collect.
+          </li>
+          <li><a href="https://adssettings.google.com/authenticated">Turn off ad personalization</a></li>
+        </ul>
+        <h3>YouTube</h3>
+        <ul>
+          <li>
+            <a href="https://myaccount.google.com/u/0/yourdata/youtube">Delete your search and watch history</a>
+          </li>
+          <li>
+            <a
+              href="https://www.notion.so/Practical-Guide-To-Online-Privacy-Security-5e2786496128412daa74603054add26e#7b1880007fbc40ceb17982f63a5076bb">Manage
+              your activity</a>
+          </li>
+          <li>
+            <a
+              href="https://www.notion.so/Practical-Guide-To-Online-Privacy-Security-5e2786496128412daa74603054add26e#1c00daa4762348ec82c1c8e55fec154a">Hide
+              your video preferences</a>
+          </li>
+        </ul>
+        <h3>Facebook</h3>
+        <p>
+          My hard & fast recommendation is to delete your Facebook account entirely. However, if you need to keep your
+          account, you can lock down your data in your settings panel. Facebook has made it easier to control your
+          privacy settings in recent years, but there are still multiple places to edit this information. I recommend
+          navigating to settings, and editing your privacy controls in every panel on the left-hand side of the screen.
+        </p>
+        <figure class="image">
+          <img style="width:132px" src="assets/facebook-privacy-settings.png" />
+          <figcaption>Facebook settings panel on desktop</figcaption>
+        </figure>
+        <h3>Instagram</h3>
+        <ul>
+          <li>
+            Personalize your
+            <a href="https://www.instagram.com/accounts/privacy_and_security/">privacy & security settings</a>
+          </li>
+          <li><a href="https://www.instagram.com/session/login_activity/">Check your login activity</a></li>
+          <li>
+            <a href="https://www.instagram.com/accounts/manage_access/">Revoke access to third party apps</a> that
+            should no longer have access to your instagram account
+          </li>
+        </ul>
+        <h3>Twitter</h3>
+        <ul>
+          <li>
+            <a href="https://twitter.com/settings/account/personalization">Turn off all of your personalization and data
+              settings</a>
+          </li>
+        </ul>
+        <h3>Amazon</h3>
+        <ul>
+          <li><a href="https://www.amazon.com/adprefs">Turn off personalized ads</a></li>
+          <li>
+            <a href="https://www.amazon.com/hz/mycd/digital-console/privacysettings/">Manage your Alexa device and other
+              Amazon device privacy settings</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="section-5" onclick="toggleSection(this.id)">
+
+      <div class="toggle-header">
+        <h2>
+          Step 5: Start using a VPN when accessing unfamiliar wifi networks
+        </h2>
+        <div id="down-arrow" class="toggle-arrow"><span class="icon" role="button"
+            aria-label="down-arrow-toggle">⇣</span></div>
+        <div id="up-arrow" class="toggle-arrow"><span class="icon" role="button" aria-label="up-arrow-toggle">⇡</span>
+        </div>
+      </div>
+      <div class="toggle-section">
+        <p>
+          Truthfully, this is where my knowledge about security and online privacy starts to diminish. I've never used a
+          VPN until recently, and it's only because Dashlane provides one with my paid account. Here's
+          <a href="https://support.dashlane.com/hc/en-us/articles/360001158385">Dashlane's</a> take on why and when you
+          might want to use a VPN:
+        </p>
+        <blockquote>
+          <strong>What is a VPN?</strong>
+          As its name suggests, a Virtual Private Network is about privacy. It creates a network, or a closed system of
+          communication between you and the VPN provider. And that network is virtual because, unlike a "real" network,
+          there is no preexisting, dedicated infrastructure.
+        </blockquote>
+        <blockquote>
+          <strong>Why should I use a VPN?</strong>
+          In many cases, your access to the internet, be it at home or at work, is safe and secure. But when you're on
+          the move and use free or unfamiliar networks such as in airports, hotels or cafes, you're opening yourself up
+          to your data being observed and potentially stolen. This is especially true if you visit web addresses using
+          “http”, not “https”, or access an email account using unsafe protocols. A VPN allows you to go online through
+          a secure connection even when you're on an insecure network. When you're on the internet, you're anything but
+          anonymous. Your IP address is public information, and locates you geographically. Using a VPN means that your
+          internet traffic is routed through the VPN provider. So instead of your own IP address, your traffic now
+          reaches the internet from the location of the VPN's server. Additionally, your service provider cannot see
+          what websites you're visiting, since the traffic through the VPN is encrypted.
+        </blockquote>
+        <p>
+          Like password managers, there are many options when it comes to VPN providers including
+          <a href="https://nordvpn.com/">NordVPN</a>, <a href="https://surfshark.com/">Surfshark</a>,
+          <a href="https://privatevpn.com/">PrivateVPN</a>, <a href="https://protonvpn.com/">ProtonVPN</a>, and many
+          more. It's generally recommended that you don't use a free VPN service, as they may be monetizing your
+          connection in other ways.
+        </p>
+        <p>
+          Here's an
+          <a
+            href="https://www.theverge.com/2019/3/1/18222182/vpn-how-to-set-up-virtual-private-network-wi-fi-security-privacy">article</a>
+          recently published by The Verge that describes in detail how to set up a VPN on your computer or mobile
+          device.
+        </p>
+      </div>
+    </section>
+    <section id="section-6" onclick="toggleSection(this.id)">
+      <div class="toggle-header">
+        <h2>Step 6: Use a private web browser (Firefox)</h2>
+        <div id="down-arrow" class="toggle-arrow"><span class="icon" role="button"
+            aria-label="down-arrow-toggle">⇣</span></div>
+        <div id="up-arrow" class="toggle-arrow"><span class="icon" role="button" aria-label="up-arrow-toggle">⇡</span>
+        </div>
+      </div>
+      <div class="toggle-section">
+        <p>
+          Firefox is dedicated to user privacy and build a suite of products to back up that promise. Download Firefox
+          browser <a href="https://www.mozilla.org/en-US/firefox/">here</a>.
+        </p>
+      </div>
+    </section>
+
+    <section id="section-7" onclick="toggleSection(this.id)">
+      <div class="toggle-header">
+        <h2>Step 7: Use a private search engine (DuckDuckGo)</h2>
+        <div id="down-arrow" class="toggle-arrow"><span class="icon" role="button"
+            aria-label="down-arrow-toggle">⇣</span></div>
+        <div id="up-arrow" class="toggle-arrow"><span class="icon" role="button" aria-label="up-arrow-toggle">⇡</span>
+        </div>
+      </div>
+      <div class="toggle-section">
+        <p>
+          Google tracks you, DuckDuckGo doesn't. Here's an excerpt from DuckDuckGo's
+          <a href="https://spreadprivacy.com/why-use-duckduckgo-instead-of-google/">website</a>:
+        </p>
+        <blockquote>
+          To keep your searches private and out of data profiles, the government, and other legal requests, you need to
+          use DuckDuckGo. We don't track you at all, regardless what browsing mode you are in. Each time you search on
+          DuckDuckGo, it's as if you've never been there before.
+        </blockquote>
+      </div>
+    </section>
+    <section id="section-8" onclick="toggleSection(this.id)">
+      <div class="toggle-header">
+        <h2>Step 8: Use burner email accounts</h2>
+        <div id="down-arrow" class="toggle-arrow"><span class="icon" role="button"
+            aria-label="down-arrow-toggle">⇣</span></div>
+        <div id="up-arrow" class="toggle-arrow"><span class="icon" role="button" aria-label="up-arrow-toggle">⇡</span>
+        </div>
+      </div>
+      <div class="toggle-section">
+        <p>
+          Just like it's important to change your passwords regularly, you can add an extra layer of security (and avoid
+          phishing attempts) by changing up your email accounts. In addition, you can choose to use a fake name and
+          identifying information when registering for email accounts. This is legal and you should do it to avoid
+          having your data mined across services.
+        </p>
+        <blockquote>
+          If you really want to avoid any info from a website, you can use a service like
+          <a href="https://temp-mail.org/">Temp Mail</a>, <a href="https://maildrop.cc/">Maildrop</a>, or
+          <a href="https://mailsac.com/">Mailsac</a> to create fake email addresses. These temporary inbox services will
+          only hold emails for a small period of time (anywhere between 10 minutes to a week). — Natt Garun,
+          <a
+            href="https://www.theverge.com/2019/6/19/18691401/virtual-id-random-security-protection-email-phone-credit-cards-how-to-generate">The
+            Verge</a>
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="section-9" onclick="toggleSection(this.id)">
+      <div class="toggle-header">
+        <h2>Step 9: Update software regularly</h2>
+
+        <div id="down-arrow" class="toggle-arrow"><span class="icon" role="button"
+            aria-label="down-arrow-toggle">⇣</span></div>
+        <div id="up-arrow" class="toggle-arrow"><span class="icon" role="button" aria-label="up-arrow-toggle">⇡</span>
+        </div>
+      </div>
+      <div class="toggle-section">
+        <p>
+          Software updates are important because they often include critical patches to security holes. The next time
+          your desktop or mobile device prompts you with a software update, do it as soon as possible.
+        </p>
+      </div>
+    </section>
+
+    <section id="section-10" onclick="toggleSection(this.id)">
+      <div class="toggle-header">
+        <h2>The extra mile</h2>
+
+        <div id="down-arrow" class="toggle-arrow"><span class="icon" role="button"
+            aria-label="down-arrow-toggle">⇣</span></div>
+        <div id="up-arrow" class="toggle-arrow"><span class="icon" role="button" aria-label="up-arrow-toggle">⇡</span>
+        </div>
+      </div>
+      <div class="toggle-section">
+        <ul>
+          <li>
+            Sign up for a private email address from <a href="https://protonmail.com/">ProtonMail</a> which is encrypted
+            end-to-end and isn't tracked by Google.
+          </li>
+          <li>Delete emails you no longer need.</li>
+          <li>
+            Delete online accounts you no longer use. This is more difficult than it seems, as many providers do not
+            allow you to delete your account, even if you make a customer support request. However, you will find the
+            option to "Delete your account" within some applications, and you should do so if you no longer need the
+            account.
+          </li>
+          <li>Turn off all location-based permissions on your phone.</li>
+          <li>Use private messaging apps with end-to-end encryption like Signal or Telegram.</li>
+          <li>Change your passwords every 6 months.</li>
+          <li>
+            Regularly delete old photos and posts from social media. Hackers can use identifying information in photos
+            to gain access to your online accounts.
+          </li>
+        </ul>
+      </div>
+    </section>
+    <p>
+      Thanks to <a href="https://pjrvs.com/">Paul Jarvis</a> for inspiring much of this content via his
+      <em>Privacy Challenge</em> email newsletter series and Twitter user @somenerdliam for this
+      <a href="https://twitter.com/somenerdliam/status/1183916568771792897">helpful thread</a> on how to remove your
+      digital footprint from the internet.
+    </p>
+  </article>
+  <div id="fb-root"></div>
+  <div id="twitter-wjs"></div>
+</body>
+
+</html>
