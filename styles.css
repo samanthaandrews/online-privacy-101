@@ -184,10 +184,6 @@ button:last-child {
   cursor: pointer;
 }
 
-/* :hover {
-  transition: 0.2s;
-} */
-
 .toggle-header:hover {
   background-color: var(--main-txt-color);
   color: var(--main-bg-color);
