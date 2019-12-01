@@ -28,6 +28,13 @@ function copyURL(){
   setTimeout(function() {button.textContent = "Share link"}, 4000);
 }
 
+//
+function fbShare() {
+
+}
+
+
+// Twitter SDK
 window.twttr = (function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0],
         t = window.twttr || {};
@@ -45,6 +52,7 @@ window.twttr = (function(d, s, id) {
       return t;
     }(document, "script", "twitter-wjs"));
 
+// Facebook SDK
 (function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
