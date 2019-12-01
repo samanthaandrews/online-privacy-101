@@ -174,7 +174,9 @@ blockquote {
   text-transform: uppercase;
   outline: none;
   text-align: center;
-  line-height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .share-button-container > a {
